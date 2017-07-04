@@ -1468,7 +1468,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1526,6 +1526,9 @@
 	h6 {
 		font-size: 0.7em;
 		line-height: 1.5em;
+		color: #21b2a6;
+		margin: 0 0 2em 0;
+		text-align: center;
 	}
 
 	sub {
@@ -2610,9 +2613,12 @@
 		}
 
 /* Wrapper */
+ul {
+	 list-style-type: circle;
+}
 
 	.wrapper {
-		padding: 6em 6em 4em 4em ;
+		padding: 4em 6em 4em 4em ;
 	}
 
 		.wrapper > .inner {
@@ -2965,7 +2971,7 @@
 				color: #2E3842;
 			}
 
-			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
+			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5 {
 				color: #2E3842;
 			}
 
