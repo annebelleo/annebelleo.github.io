@@ -52,7 +52,7 @@
 		display: none;
 	}
 
-	body.is-menu-visible #menu {
+	.is-menu-visible #menu {
 		display: block;
 	}
 
