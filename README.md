@@ -1,1 +1,1 @@
-my personal website hosted my github and linked with my custom domain
+my personal website hosted by github and linked with my custom domain
