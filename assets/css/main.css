@@ -555,10 +555,6 @@
 /* Box */
 
 	.box {
-		border-radius: 4px;
-		border: solid 1px #ffffff;
-		margin-bottom: 2rem;
-		padding: 1.5em;
 	}
 
 		.box > :last-child,
@@ -1208,10 +1204,6 @@
 				content: '';
 				display: block;
 				position: absolute;
-				top: calc(-3.5rem - 1px);
-				left: calc(50% - 1px);
-				width: 1px;
-				height: calc(3.5rem + 1px);
 				background: #ffffff;
 			}
 
@@ -1222,19 +1214,6 @@
 			#header > :first-child:before {
 				display: none;
 			}
-
-		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
-		}
-
-			#header .logo .icon:before {
-				font-size: 2rem;
-			}
-
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
@@ -1276,28 +1255,15 @@
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
-			border-radius: 4px;
 		}
 
-			#header nav ul li {
-				padding-left: 0;
-				border-left: solid 1px #ffffff;
-			}
-
-				#header nav ul li:first-child {
-					border-left: 0;
-				}
 
 				#header nav ul li a {
 					display: block;
-					min-width: 7.5rem;
-					height: 2.75rem;
-					line-height: 2.75rem;
+					min-width: 4.5rem;
 					padding: 0 1.25rem 0 1.45rem;
-					text-transform: uppercase;
 					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
+					font-size: 1.5rem;
 					border-bottom: 0;
 				}
 
@@ -1433,6 +1399,32 @@
 				}
 
 		}
+		
+			ul.icons {
+			padding-left: 0;
+		}
+
+			ul.icons li {
+				display: inline-block;
+			}
+
+				ul.icons li:last-child {
+				}
+
+				ul.icons li a {
+					display: inline-block;
+					height: 2.25rem;
+					text-align: center;
+					width: 2.25rem;
+				}
+
+					ul.icons li a:hover {
+						background-color: rgba(255, 255, 255, 0.075);
+					}
+
+					ul.icons li a:active {
+						background-color: rgba(255, 255, 255, 0.175);
+					}
 
 /* Main */
 
