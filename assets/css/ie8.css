@@ -20,31 +20,31 @@
 		color: #2E3842;
 	}
 
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select,
-	textarea {
-		border: solid 1px #dfdfdf;
-	}
+	/*input[type="text"],*/
+	/*input[type="password"],*/
+	/*input[type="email"],*/
+	/*select,*/
+	/*textarea {*/
+	/*	border: solid 1px #dfdfdf;*/
+	/*}*/
 
 /* Button */
 
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
-		border: solid 2px #dfdfdf;
-	}
+	/*input[type="submit"],*/
+	/*input[type="reset"],*/
+	/*input[type="button"],*/
+	/*button,*/
+	/*.button {*/
+	/*	border: solid 2px #dfdfdf;*/
+	/*}*/
 
-		input[type="submit"].special,
-		input[type="reset"].special,
-		input[type="button"].special,
-		button.special,
-		.button.special {
-			border: 0 !important;
-		}
+	/*	input[type="submit"].special,*/
+	/*	input[type="reset"].special,*/
+	/*	input[type="button"].special,*/
+	/*	button.special,*/
+	/*	.button.special {*/
+	/*		border: 0 !important;*/
+	/*	}*/
 
 /* Page Wrapper + Menu */
 
@@ -58,9 +58,9 @@
 
 /* Header */
 
-	#header nav > ul > li > a.menuToggle:after {
-		display: none;
-	}
+	/*#header nav > ul > li > a.menuToggle:after {*/
+	/*	display: none;*/
+	/*}*/
 
 /* Banner + Wrapper (style4) */
 
