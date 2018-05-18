@@ -266,7 +266,6 @@
 		ul.icons {
 			cursor: default;
 			list-style: none;
-			padding-left: 0;
 		}
 
 			ul.icons li {
@@ -624,7 +623,7 @@
 					-webkit-flex-direction: column;
 					-ms-flex-direction: column;
 					flex-direction: column;
-					min-width: 10rem;
+					min-width: 5rem;
 					max-width: 100%;
 				}
 
@@ -636,10 +635,10 @@
 		
 			ul.icons {
 			padding-left: 0;
+			display: inline;
 		}
 
 			ul.icons li {
-				display: inline-block;
 				text-align: center;
 			}
 
