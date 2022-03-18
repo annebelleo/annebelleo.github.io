@@ -1,7 +1,2 @@
-This is my personal website, hosted by Github Pages.
-<br>
-As I like being minimal, the home page links to just three things: GitHub, Resume/CV, and Linkedin.
-<br>
-Personal domain is not in use.
-<br>
-Website theme: HTML5Up
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Referred to [this](https://www.freecodecamp.org/news/build-portfolio-website-react/) and [this](https://reactrouter.com/docs/en/v6/getting-started/tutorial) tutorial to create my personal website.
