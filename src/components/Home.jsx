@@ -1,5 +1,6 @@
 import React from "react";
 import Photo from "../images/IMG_0002.JPG";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Main() {
   return (
