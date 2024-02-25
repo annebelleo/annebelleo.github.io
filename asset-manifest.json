@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a8a0596.css",
-    "main.js": "/static/js/main.2d4ff7f8.js",
-    "static/media/photo2.jpg": "/static/media/photo2.bf5285139d00a506add9.jpg",
-    "static/media/IMG_0002.JPG": "/static/media/IMG_0002.a08b81262f8f2e5ce5de.JPG",
-    "static/media/Olminkhof CV.pdf": "/static/media/Olminkhof CV.441d6901d9efb8f2ec4f.pdf",
+    "main.css": "/static/css/main.a2e8927e.css",
+    "main.js": "/static/js/main.f56cc6ee.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/mail.jpeg": "/static/media/mail.a08b81262f8f2e5ce5de.jpeg",
     "index.html": "/index.html",
-    "main.1a8a0596.css.map": "/static/css/main.1a8a0596.css.map",
-    "main.2d4ff7f8.js.map": "/static/js/main.2d4ff7f8.js.map"
+    "main.a2e8927e.css.map": "/static/css/main.a2e8927e.css.map",
+    "main.f56cc6ee.js.map": "/static/js/main.f56cc6ee.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a8a0596.css",
-    "static/js/main.2d4ff7f8.js"
+    "static/css/main.a2e8927e.css",
+    "static/js/main.f56cc6ee.js"
   ]
 }
