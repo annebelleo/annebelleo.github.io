@@ -1,0 +1,134 @@
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7d5ab;
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color: #222;
+}
+
+.momo-signature-regular {
+  font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.red-hat-text-font {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p, ul, li {
+    color: #4d2e07;
+    line-height: 1.5;
+}
+
+a {
+    color: #a76310;
+    text-decoration: none;
+}
+
+.title {
+    margin: 0;
+    color: #4d2e07;
+    overflow-wrap: normal;
+}
+
+.text {
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.icon {
+    width: 2em;
+    height: 2em;
+    vertical-align: -0.125em;
+  }
+
+.logos {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.logos a {
+    display: inline-flex;
+    align-items: center;
+}
+
+.main {
+    padding: 4rem 2rem;
+    box-sizing: border-box;
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+    flex: 1 1 auto;
+}
+
+.navbar-container {
+    padding: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .container-fluid {
+    display: flex;
+    justify-content: center; 
+    gap: 1rem; 
+    flex-wrap: nowrap;
+}
+.navbar-brand {
+    margin: 0;
+    text-align: center;
+    display: inline-block; 
+}
+
+footer {
+    padding: 1rem;
+    color: #4d2e07;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.facts-box {
+    background-color: #fae7cf;
+    border-radius: 3px;
+        margin: 1rem auto;
+}
+
+.facts {
+    margin: 2rem;
+    padding: 1rem;
+}
+
+img, svg {
+        max-width: 100%;
+        height: auto;
+        display: block;
+}
+
+@media (max-width: 600px) {
+    .main {
+        padding: 2rem;
+        margin: 0;
+    }
+    .navbar-container {
+        padding: 0.75rem;
+    }
+    .facts-box {
+        margin: 1rem 0.5rem;
+    }
+}
